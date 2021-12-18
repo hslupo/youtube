@@ -25,7 +25,7 @@ def solve_puzzle2(puzzle):   # eigener versuch
     print(b, a)
   return anzahl
 
-puzzle = read_puzzle('puzzle_tag1.txt')
+puzzle = read_puzzle('tag1.txt')
 lb = [199,200,208,210,200,207,240,269,260,263]
 # print(f'Ergebnis: {solve_puzzle(lb)}' )
 # print(f'Ergebnis: {solve_puzzle(puzzle)}' )
