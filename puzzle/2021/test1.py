@@ -13,8 +13,8 @@ puzzle = read_puzzle1('tag1.txt')
 mitte = pfc()
 puzzle = read_puzzle2('tag1.txt')
 ende = pfc()
-print(f'Erster Versuch : {(mitte-start) * 1000}')
-print(f'Zweiter Versuch: {(ende-mitte) * 1000}')
+print(f'Erster Versuch : {(mitte-start) * 10000}')
+print(f'Zweiter Versuch: {(ende-mitte) * 10000}')
 
 # Ergebnis uneindeutig
 # bei mehrfachen Durchläufen unterschiedliche Zeiten
